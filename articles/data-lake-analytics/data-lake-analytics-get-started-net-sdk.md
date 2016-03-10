@@ -62,6 +62,7 @@ A sample search log has been copied to a public Azure Blob container. In the app
 3. Open Nuget Package Management console, and run the following commands:
 
         Install-Package Microsoft.Azure.Management.DataLake.Analytics -Pre
+        Install-Package Microsoft.Azure.Management.DataLake.AnalyticsJob -Pre
         Install-Package Microsoft.Azure.Management.DataLake.Store -Pre
         Install-Package Microsoft.Azure.Management.DataLake.StoreUploader -Pre
         Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
